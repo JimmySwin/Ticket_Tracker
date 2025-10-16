@@ -116,6 +116,8 @@ def get_upcoming_closing_events(days_ahead=30):
 
     return upcoming
 
+
+
 if __name__ == "__main__":
     create_table()
     insert_or_update_event(
