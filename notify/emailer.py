@@ -29,8 +29,8 @@ def send_email_notification(notifications, recipient_email):
         print("No notifications to send today.")
         return
 
-    sender_email = "your_email@gmail.com"
-    app_password = "your_app_password"
+    sender_email = "nionninga@gmail.com"
+    app_password = "xkvp dycp ekmt osej"
 
     msg = MIMEMultipart("alternative")
     msg["Subject"] = "🎫 Event Reminder - Upcoming Ballots"
