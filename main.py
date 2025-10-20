@@ -1,4 +1,4 @@
-from scr.scraper import get_berlin_marathon_date
+from src.scraper import get_berlin_marathon_date
 from notify.emailer import send_email
 
 if __name__ == "__main__":
